@@ -28,7 +28,24 @@ You will see the output like following
 2016-05-05T18:16:24.785+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
 ```
 You can press ``Ctrl + c`` to stop the service. As you can see it is a tedious process to start and stop the service.
-Nexe, I will show you how to configure MongoDB as windows service.
+Next, I will show you how to configure MongoDB as windows service.
 
 **Configure MongoDB Service**
 
+Create a configuration file at ``C:\Program Files\MongoDB\Server\3.0\mongod.cfg`` like following.
+```
+systemLog:
+    destination: file
+    path: D:\mongo_data\log\mongod.log
+storage:
+    dbPath: D:\mongo_data\db
+```
+Open windows command line and change directory to MongoDB installed and install MongoDB as windows Service
+```
+cd C:\Program Files\MongoDB\Server\3.0\bin
+mongod.exe --config "C:\Program Files\MongoDB\Server\3.0\mongod.cfg" --install
+```
+After executing the commends you can find MongoDB service in Windows Service Management(Win + R --> 
+services.msc --> Enter)
+
+You can create a shortcut to quick start and stop MongoDB service. How to create shortcut? Click [here](http://www.henryxi.com/quick-launch-programsstart-service-on-windows).
