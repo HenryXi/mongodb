@@ -6,13 +6,13 @@ MongoDB the right dbpath. I create two directories for log(``D:\mongo_data\log``
 
 **Start MongoDB Service**
 Before configuring MongoDB service you have to use following command to start MongoDB service. 
-```lang-bash
+```lang-none
 cd C:\Program Files\MongoDB\Server\3.0\bin
 mongo.exe --dbpath D:\mongo_data\db
 ```
 
 You will see the output like following 
-```lang-bash
+```lang-none
 2016-05-05T18:16:24.754+0800 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
 2016-05-05T18:16:24.755+0800 I CONTROL  [initandlisten] MongoDB starting : pid=4772 port=27017 dbpath=D:\mongo_data\db 64-bit host=yong-PC
 2016-05-05T18:16:24.755+0800 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
