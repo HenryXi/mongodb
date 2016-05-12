@@ -1,0 +1,1 @@
+# Create collection in MongoDB
