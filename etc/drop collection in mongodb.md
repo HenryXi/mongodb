@@ -13,4 +13,4 @@ system.indexes
 users
 ```
 One thing to note here is that this command will obtains a write lock on the database. Other operations
-will be blocked until drop completed.
+will be blocked until drop command has completed.
