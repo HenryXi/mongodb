@@ -6,13 +6,13 @@ MongoDB the right dbpath. I create two directories for log(``D:\mongo_data\log``
 
 **Start MongoDB Service**
 Before configuring MongoDB service you have to use following command to start MongoDB service. 
-```lang-none
+```bash
 cd C:\Program Files\MongoDB\Server\3.0\bin
 mongod.exe --dbpath D:\mongo_data\db
 ```
 
 You will see the output like following 
-```lang-none
+```bash
 2016-05-11T11:37:11.596+0800 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
 2016-05-11T11:37:11.603+0800 I CONTROL  [initandlisten] MongoDB starting : pid=7188 port=27017 dbpath=D:\mongo_data\db 64-bit host=yong-PC
 2016-05-11T11:37:11.603+0800 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
@@ -33,7 +33,7 @@ Next, I will show you how to configure MongoDB as windows service.
 **Configure MongoDB Service**
 
 Create a configuration file at ``C:\Program Files\MongoDB\Server\3.0\mongod.cfg`` like following.
-```lang-none
+```bash
 systemLog:
     destination: file
     path: D:\mongo_data\log\mongod.log
@@ -41,7 +41,7 @@ storage:
     dbPath: D:\mongo_data\db
 ```
 Open windows command line and change directory to MongoDB installed and install MongoDB as windows Service
-```lang-none
+```bash
 cd C:\Program Files\MongoDB\Server\3.0\bin
 mongod.exe --config "C:\Program Files\MongoDB\Server\3.0\mongod.cfg" --install
 ```
