@@ -6,7 +6,7 @@ with document validation.
 **create collection automatically**
 
 When you insert document in a collection which is not exist MongoDB will create collection automatically.
-```lang-none
+```bash
 > show collections
 system.indexes
 > use user_database
@@ -22,7 +22,7 @@ users
 You can also create collection manually by using following command(**case matters**). In this way you
  can create a capped
 collection. 
-```lang-none
+```bash
 > db.createCollection('test')
 { "ok" : 1 }
 > show collections
