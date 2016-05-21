@@ -1,7 +1,7 @@
 # Drop collection in MongoDB
 Drop collection in MongoDB is easy. Use ``db.collection_name.drop()`` to drop the collection. All indexes
  in this collection will be also removed.  
-```lang-none
+```bash
 > show collections
 system.indexes
 test
