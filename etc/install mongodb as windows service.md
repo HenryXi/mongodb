@@ -5,6 +5,7 @@ MongoDB will connect ``C:/data/db`` as default dbpath, if this directory doesn't
 MongoDB the right dbpath. I create two directories for log(``D:\mongo_data\log``) and database(``D:\mongo_data\db``).
 
 **Start MongoDB Service**
+
 Before configuring MongoDB service you have to use following command to start MongoDB service. 
 ```bash
 cd C:\Program Files\MongoDB\Server\3.0\bin
