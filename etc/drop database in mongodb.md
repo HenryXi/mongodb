@@ -1,7 +1,7 @@
 # Drop database in MongoDB
 Use ``db.dropDatabase()`` to delete the current selected database. If no database selected this 
-commend will delete the default database ``test``. Before deleting you need show all database. 
-Delete a database commend like following.
+command will delete the default database ``test``. Before deleting you need show all database. 
+Delete a database command like following.
 ```bash
 > show dbs
 local          0.078GB

@@ -45,7 +45,7 @@ Open windows command line and change directory to MongoDB installed and install 
 cd C:\Program Files\MongoDB\Server\3.0\bin
 mongod.exe --config "C:\Program Files\MongoDB\Server\3.0\mongod.cfg" --install
 ```
-After executing the commends you can find MongoDB service in Windows Service Management(Win + R --> 
+After executing the commands you can find MongoDB service in Windows Service Management(Win + R --> 
 services.msc --> Enter)
 
 You can create a shortcut to quick start and stop MongoDB service. How to create shortcut? Click [here](http://www.henryxi.com/quick-launch-programsstart-service-on-windows).

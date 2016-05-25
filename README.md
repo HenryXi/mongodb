@@ -10,5 +10,6 @@ by step.
 
 **common commands**
 * [Create Database in MongoDB](http://www.henryxi.com/create-database-in-mongodb)
+* [Drop database in MongoDB](http://www.henryxi.com/drop-database-in-mongodb)
 * [Create collection in MongoDB](http://www.henryxi.com/create-collection-in-mongodb)
 * [Drop collection in MongoDB](http://www.henryxi.com/drop-collection-in-mongodb)
