@@ -8,13 +8,22 @@ by step.
 * [Install MongoDB on CentOS](http://www.henryxi.com/install-mongodb-on-centos)
 * [Install MongoDB as windows service](http://www.henryxi.com/install-mongodb-as-windows-service)
 
-**common commands**
+**init database**
 
 * [Create database in MongoDB](http://www.henryxi.com/create-database-in-mongodb)
 * [Drop database in MongoDB](http://www.henryxi.com/drop-database-in-mongodb)
+
+**init collection**
+
 * [Create collection in MongoDB](http://www.henryxi.com/create-collection-in-mongodb)
 * [Drop collection in MongoDB](http://www.henryxi.com/drop-collection-in-mongodb)
 
+**insert**
+
+**delete**
+
+**update**
+
 **query**
 
-...
+**index**
