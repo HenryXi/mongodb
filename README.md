@@ -20,6 +20,8 @@ by step.
 
 **insert**
 
+* [Insert data in MongoDB](http://www.henryxi.com/insert-data-in-mongodb)
+
 **delete**
 
 **update**
