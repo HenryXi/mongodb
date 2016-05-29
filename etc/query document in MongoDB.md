@@ -45,4 +45,4 @@ For embedded document we can query like following. Do **not** lose dot in `"addr
 > db.user.find({"address.province":"Beijing"})
 { "_id" : ObjectId("5747b8a12a9f793542c63ace"), "name" : "Mathew", "age" : 23, "address" : { "country" : "China", "province" : "Beijing" } }
 ```
-The result of query is not formatted. [Format query result in MongoDB]()
+The result of query is not formatted. [Format query result in MongoDB](http://www.henryxi.com/format-query-result-in-mongodb)
