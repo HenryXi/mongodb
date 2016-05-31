@@ -24,8 +24,13 @@ by step.
 
 **delete**
 
+* [Delete document in MongoDB](http://www.henryxi.com/delete-document-in-mongodb)
+
 **update**
 
 **query**
+
+* [Query document in MongoDB](http://www.henryxi.com/query-document-in-mongodb)
+* [Format query result in MongoDB](http://www.henryxi.com/format-query-result-in-mongodb)
 
 **index**
