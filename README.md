@@ -34,3 +34,5 @@ by step.
 * [Format query result in MongoDB](http://www.henryxi.com/format-query-result-in-mongodb)
 
 **index**
+
+* [Create and drop index in MongoDB](http://www.henryxi.com/create-and-drop-index-in-mongodb)
