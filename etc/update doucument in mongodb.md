@@ -2,9 +2,9 @@
 We use `db.collection.update()` to update the document. Since version 3.2 you can use `db.collection.updateOne()`
 ,`db.collection.updateMany()` or `db.collection.replaceOne()` to update document or documents. Click
 [here](https://docs.mongodb.com/manual/tutorial/update-documents/) for more detail. In this page I will
-show you sample examples.
+show you simple examples.
 
-```
+```bash
 > db.user.save([{"name":"Justin","age":NumberInt(27)},{"name":"Henry","age":NumberInt(27)},{"name":"Charles","age":NumberInt(35)},{"name":"Matthews","age":NumberInt(21)}])
 BulkWriteResult({
 	"writeErrors" : [ ],
@@ -19,7 +19,7 @@ BulkWriteResult({
 ```
 
 update Charles's age
-```
+```bash
 > db.user.findOne({name:"Charles"})
 {
 	"_id" : ObjectId("576ded03c1e5b2a01edf3c10"),
@@ -40,7 +40,7 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 multi documents use `multi` option.
 
 update document which age is 27
-```
+```bash
 > db.user.find({age:27})
 { "_id" : ObjectId("576ded03c1e5b2a01edf3c0e"), "name" : "Justin", "age" : 27 }
 { "_id" : ObjectId("576ded03c1e5b2a01edf3c0f"), "name" : "Henry", "age" : 27 }
@@ -54,7 +54,7 @@ WriteResult({ "nMatched" : 2, "nUpserted" : 0, "nModified" : 2 })
 ```
 
 use `$unset` to remove field when update
-```
+```bash
 > db.user.update({"name":"Henry"},{$unset:{"age":""}})
 WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 > db.user.find({})
