@@ -29,6 +29,8 @@ by step.
 
 **update**
 
+* [Update document in MongoDB](http://www.henryxi.com/update-document-in-mongodb)
+
 **query**
 
 * [Query document in MongoDB](http://www.henryxi.com/query-document-in-mongodb)
