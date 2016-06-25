@@ -21,6 +21,7 @@ by step.
 **insert**
 
 * [Insert data in MongoDB](http://www.henryxi.com/insert-data-in-mongodb)
+* [Difference between save and insert in MongoDB](http://www.henryxi.com/difference-between-save-and-insert-in-mongodb)
 
 **delete**
 
