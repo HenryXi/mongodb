@@ -35,6 +35,7 @@ by step.
 
 * [Query document in MongoDB](http://www.henryxi.com/query-document-in-mongodb)
 * [Format query result in MongoDB](http://www.henryxi.com/format-query-result-in-mongodb)
+* [Count document in MongoDB](http://www.henryxi.com/count-document-in-mongodb)
 
 **index**
 
