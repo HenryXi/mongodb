@@ -30,6 +30,7 @@ by step.
 **update**
 
 * [Update document in MongoDB](http://www.henryxi.com/update-document-in-mongodb)
+* [Update null or not exist field in MongoDB](http://www.henryxi.com/update-null-or-not-exist-field-in-mongodb)
 
 **query**
 
