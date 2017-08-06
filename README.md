@@ -16,6 +16,7 @@ by step.
 * [MongoDB delete user](http://www.henryxi.com/mongodb-delete-user)
 * [Create collection in MongoDB](http://www.henryxi.com/create-collection-in-mongodb)
 * [Drop collection in MongoDB](http://www.henryxi.com/drop-collection-in-mongodb)
+* [MongoDB Authentication Mechanisms](http://www.henryxi.com/mongodb-authentication-mechanisms)
 
 **CRUD**
 
