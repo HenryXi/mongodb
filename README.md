@@ -12,32 +12,19 @@ by step.
 
 * [Create database in MongoDB](http://www.henryxi.com/create-database-in-mongodb)
 * [Drop database in MongoDB](http://www.henryxi.com/drop-database-in-mongodb)
-
-**init collection**
-
+* [MongoDB enable auth](http://www.henryxi.com/mongodb-enable-auth)
+* [MongoDB delete user](http://www.henryxi.com/mongodb-delete-user)
 * [Create collection in MongoDB](http://www.henryxi.com/create-collection-in-mongodb)
 * [Drop collection in MongoDB](http://www.henryxi.com/drop-collection-in-mongodb)
 
-**insert**
+**CRUD**
 
 * [Insert data in MongoDB](http://www.henryxi.com/insert-data-in-mongodb)
 * [Difference between save and insert in MongoDB](http://www.henryxi.com/difference-between-save-and-insert-in-mongodb)
-
-**delete**
-
 * [Delete document in MongoDB](http://www.henryxi.com/delete-document-in-mongodb)
-
-**update**
-
 * [Update document in MongoDB](http://www.henryxi.com/update-document-in-mongodb)
 * [Update null or not exist field in MongoDB](http://www.henryxi.com/update-null-or-not-exist-field-in-mongodb)
-
-**query**
-
 * [Query document in MongoDB](http://www.henryxi.com/query-document-in-mongodb)
 * [Format query result in MongoDB](http://www.henryxi.com/format-query-result-in-mongodb)
 * [Count document in MongoDB](http://www.henryxi.com/count-document-in-mongodb)
-
-**index**
-
 * [Create and drop index in MongoDB](http://www.henryxi.com/create-and-drop-index-in-mongodb)
